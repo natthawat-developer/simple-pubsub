@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "start": "npx ts-node src/app.ts",
     "test": "npx jest --watch",
-    "dev": "npx nodemon --ext ts --exec npx ts-node src/app.ts"
+    "dev": "npx nodemon --ext ts --exec npx ts-node src/app.ts",
+    "start": "npx ts-node src/app.ts"
   },
   "keywords": [],
   "author": "",
