@@ -23,7 +23,7 @@ export class Machine {
 // In fact you may change anything as long as the task is performed and you can justify your reasonings. 
 // Remember subscribers should be notified in the order that the events occured.
 
-//Note II: If a subscriber subscribes after an event has already been published and consumed, they will not receive that event.
+// Note II: If a subscriber subscribes after an event has already been published and consumed, they will not receive that event.
 export class MachineSaleSubscriber implements ISubscriber {
   constructor(
     private machines: Machine[],
