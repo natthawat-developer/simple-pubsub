@@ -17,5 +17,5 @@ pubSubService.subscribe('refill', refillSubscriber);
 pubSubService.subscribe('low_stock_warning', warningSubscriber);
 pubSubService.subscribe('stock_level_ok', warningSubscriber);
 
-const events: IMachineEvent[] = Array.from({ length: 5 }, () => eventGenerator());
+const events: IMachineEvent[] = Array.from({ length: 20 }, () => eventGenerator());
 events.forEach(event => pubSubService.publish(event));
